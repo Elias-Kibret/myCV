@@ -250,6 +250,7 @@ ul li{
 .interset
 {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     margin-top: 15px;
     font-size: 12px;
