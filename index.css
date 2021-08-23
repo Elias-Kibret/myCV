@@ -93,7 +93,9 @@ ul {
     width:18px;
     height: 18x;
     margin-right: 10px;
+    margin-top: 5px;
 }
+
 .icon img{
     width:100%;
     height: 100%;
@@ -256,7 +258,7 @@ ul li{
     font-size: 12px;
     font-weight: 500;
 }
-@media screen and (max-width:450pc) {
+@media screen and (max-width:450px) {
     .interset
     {
         display: flex;
@@ -264,6 +266,11 @@ ul li{
         flex-direction: column;
         margin:10px
         
+    }
+    .interset>div{
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
     }
 }
 .footer{
